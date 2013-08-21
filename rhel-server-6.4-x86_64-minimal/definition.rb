@@ -31,7 +31,11 @@ Veewee::Session.declare({
   :shutdown_cmd => "/sbin/halt -h -p",
   :postinstall_files => [
     "base.sh",
+    "epel.sh",
     "vagrant.sh",
+    #"virtualbox.sh",
+    #"vmfusion.sh",
+    "vmware.sh",
     "cleanup.sh",
     "zerodisk.sh"
   ],
