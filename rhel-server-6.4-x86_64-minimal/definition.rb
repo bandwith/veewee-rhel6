@@ -33,7 +33,6 @@ Veewee::Session.declare({
   :postinstall_files => [
     "base.sh",
     "vagrant.sh",
-    "virtualbox.sh",
     "cleanup.sh",
     "zerodisk.sh"
   ],
