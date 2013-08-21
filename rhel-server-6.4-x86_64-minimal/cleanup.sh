@@ -1,6 +1,6 @@
 yum -y clean all
 
-#verify removal of VirtualBox Guest Additions sio
+#verify removal of VirtualBox Guest Additions iso
 rm -rf VBoxGuestAdditions_*.iso
 
 #verify removal of VMware Fusion guest additions iso
