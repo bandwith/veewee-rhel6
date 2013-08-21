@@ -1,4 +1,4 @@
-veewee-rhel6-vbox
+veewee-rhel6
 =================
 
 ### Setup veewee using rbenv (my preferred method)
