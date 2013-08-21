@@ -50,8 +50,8 @@ Barebones RHEL6 installation.
 $ cd ~/opt/veewee
 $ alias veewee='bundle exec veewee'
 $ cp -pR <project_dir>/veewee-rhel6-vbox/rhel-server-6.4-x86_64-minimal templates
-$ veewee vbox define 'rhel64-minimal' 'rhel-server-6.4-x86_64-minimal'
-$ veewee vbox build 'rhel64-minimal'
-$ veewee vbox export 'rhel64-minimal'
+$ veewee fusion define 'rhel64-minimal' 'rhel-server-6.4-x86_64-minimal'
+$ veewee fusion build 'rhel64-minimal'
+$ veewee fusion export 'rhel64-minimal'
 $ vagrant box add 'rhel64-minimal' 'rhel64-minimal.box'
 ```
