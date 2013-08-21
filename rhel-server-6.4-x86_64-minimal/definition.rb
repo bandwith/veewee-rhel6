@@ -32,7 +32,7 @@ Veewee::Session.declare({
   :postinstall_files => [
     "base.sh",
     #"rhn.sh",
-    #"epel.sh",
+    "epel.sh",
     "vagrant.sh",
     #"virtualbox.sh",
     #"vmfusion.sh",
