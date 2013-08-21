@@ -1,9 +1,9 @@
 yum -y clean all
 
-#remove VirtualBox Guest Additions sio
+#verify removal of VirtualBox Guest Additions sio
 rm -rf VBoxGuestAdditions_*.iso
 
-#remove VMware Fusion guest additions iso
+#verify removal of VMware Fusion guest additions iso
 rm -rf linux.iso
 
 # Remove traces of mac address from network configuration
