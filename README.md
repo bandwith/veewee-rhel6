@@ -1,42 +1,15 @@
 veewee-rhel6
 =================
 
-### Setup veewee using rbenv (my preferred method)
-```
-$ mkdir ~/.rbenv
-$ cd ~/.rbenv
-$ git clone https://github.com/sstephenson/rbenv.git .
-$ git clone https://github.com/sstephenson/ruby-build.git plugins
-$ git clone https://github.com/jamis/rbenv-gemset plugins
-$ echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bash_profile
-$ echo 'eval "$(rbenv init -)"' >> ~/.bash_profile
-$ exec $SHELL -l
-$ rbenv rehash
-$ rbenv install 1.9.3-p448
-$ mkdir ~/opt
-$ cd ~/opt
-$ git clone https://github.com/jedi4ever/veewee.git
-$ echo '1.9.3-p448' > veewee/.ruby-version
-$ echo 'veewee' > veewee/.ruby-gemset
-$ rbenv gemset create 1.9.3-p448 veewee
-$ rbenv rehash
-$ cd veewee
-$ gem install bundler
-$ bundle install
-```
+### Setup veewee (for the lazy)
 
-### Setup veewee using rvm
-```
-$ curl -L https://get.rvm.io | bash -s master --ruby latest-1.9
-$ rvm install ruby-1.9.3-p448
-$ mkdir ~/opt
-$ cd ~/opt
-$ git clone https://github.com/jedi4ever/veewee.git
-$ echo 'rvm use ruby-1.9.3-p448@veewee --create' > veewee/.rvmrc
-$ cd veewee
-$ gem install bundler
-$ bundle install
-```
+I'm extremely lazy and don't use ruby for any "development" work... 
+
+For semi-automatic RVM installation, I used https://jewelrybox.unfiniti.com/ for OS X.
+
+#### Clone veewee
+https://github.com/jedi4ever/veewee/blob/master/doc/installation.md
+
 
 ### Download ISO
 You will need to download the RHEL 6.4 ISO file and copy it to `~/opt/veewee/iso/rhel-server-6.4-x86_64-dvd.iso`.
